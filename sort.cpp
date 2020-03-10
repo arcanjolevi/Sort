@@ -45,7 +45,6 @@ void insertionSort(type vet[], int n){
 		x = vet[i];
 		for(j = i - 1; j >= 0 && vet[j] > x;j--)
 			vet[j+1] = vet[j];
-		imprimeVet();
 		vet[j+1] = x;
 	}
 }
